@@ -16,6 +16,13 @@ hr {
 	color: grey;
 }
 
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
 
 </style>
 </head>
@@ -23,7 +30,11 @@ hr {
 
 <body>
 
-
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
 
 
 <h1>
@@ -34,7 +45,7 @@ hr {
 
 
 
-<img src="empfang_oben.jpg" alt="Gerresheimer Empfang" style="width:200px;height:200px;">
+<img src="empfang_oben.jpg" alt="Gerresheimer Empfang" style="width:400px;height:400px;">
 
 
 <hr>
