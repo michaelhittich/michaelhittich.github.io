@@ -6,9 +6,17 @@ body {
 
 
 h1 {
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-size:50px;
   color: #333333;
   float: center;
   margin-left: 40px;
+}
+
+p {
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-size:15px;
+  color: #333333;
 }
 
 hr {
@@ -26,7 +34,7 @@ hr {
 
 .sidebar {
  float:left;
- width:150px;
+ width:50px;
  height:100%;
  min-height:100px;
  background-color: #FFF;
