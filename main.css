@@ -25,13 +25,16 @@ hr {
 }
 
 .sidebar {
-  margin: 20px 20px 20px 20px;
-  float: left;
-  background-color: #101010;
-  width: 20%;
-  height: 500px;
+ float:left;
+ width:150px;
+ height:100%;
+ min-height:100px;
+ background-color: #FFF;
+ margin-top: 10px;
+ margin-left: 10px;
 
-  outline-color: red;
+ outline-style: solid;
+ outline-color: red;
 }
 
 .content {
@@ -42,6 +45,7 @@ hr {
   width: 60%;
   height: 500px;
 
+  outline-style: solid;
   outline-color: red;
 }
 
