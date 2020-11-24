@@ -4,7 +4,6 @@ body {
   background-color: #333333;
 }
 
-
 h1 {
   font-family: "Josefin Sans", Helvetica, sans-serif;
   font-size:50px;
@@ -23,13 +22,13 @@ hr {
 	border-top: 1px solid #333333;
 }
 
-
 .header {
   background-color: #101010;
   padding: 100px;
   text-align: center;
 
   outline-color: red;
+  outline-style: solid;
 }
 
 .sidebar {
@@ -62,7 +61,6 @@ hr {
   padding: 100px;
   text-align: center;
 
+  outline-style: solid;
   outline-color:red;
 }
-
-</style>
