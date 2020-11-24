@@ -72,13 +72,9 @@ hr {
 
 .footer {
   background-color: #101010;
+  padding: 20px;
+  text-align: right;
 
-  height: 100px;
-  width: -moz-calc(100% - 20px);
-  width: -webkit-calc(100% - 20px);
-  width:calc(100% - 20px);
-  
-  
-  padding: 10px 10px 10px 10px;
-  position:absolute;
-  bottom: 1;  
+  outline-style: solid;
+  outline-color:red;
+}
