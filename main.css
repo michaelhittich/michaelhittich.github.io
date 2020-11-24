@@ -20,6 +20,8 @@ div.wrapper {
 }
 
 .sidebar {
+ margin: 20px 20px 20px 10px;
+
  float:left;
  width:20%
  height:100%;
@@ -33,21 +35,23 @@ div.wrapper {
 ul.sidebar {
   padding: 10px;
   list-style-type:none;
+
+  outline-style: none;
 }
 
-
-
 .content {
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 140px;
   padding: 20px;
-  float: left;
+
   background-color: #101010;
-  width: 80%;
+  width: 90%;
   height: 100%;
+  min-height: 400px;
 
   outline-style: solid;
   outline-color: red;
 }
+
 
 .footer {
   background-color: #101010;
@@ -67,7 +71,7 @@ h1 {
 
 p {
   font-size:15px;
-  color: #333333;
+  color: #666666;
 }
 
 p.sidebartext {
@@ -95,10 +99,10 @@ a.sidebarlink:hover{
 
 
 hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    color: #333333;
+    height:1px;
+    border-width:0;
+    color:#333333;
+    background-color:#333333;
 }
+
+
