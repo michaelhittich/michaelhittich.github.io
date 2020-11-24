@@ -18,17 +18,25 @@ p {
   color: #333333;
 }
 
+p.sidebartext {
+  font-family: "Josefin Sans", Helvetica, sans-serif;
+  font-size:20px;
+  color:#333333;
+}
+
+
 hr {
 	border-top: 1px solid #333333;
 }
 
 .header {
   background-color: #101010;
-  padding: 100px;
+  padding: 50px;
   text-align: center;
 
   outline-color: red;
   outline-style: solid;
+
 }
 
 .sidebar {
@@ -44,13 +52,14 @@ hr {
  outline-color: red;
 }
 
+
 .content {
   margin: 20px 20px 20px 20px;
-  padding: 50px;
+  padding: 20px;
   float: right;
   background-color: #101010;
-  width: 60%;
-  height: 500px;
+  width: 80%;
+  height: 400px;
 
   outline-style: solid;
   outline-color: red;
@@ -58,8 +67,11 @@ hr {
 
 .footer {
   background-color: #101010;
-  padding: 100px;
-  text-align: center;
+  padding: 20px;
+  text-align: right;
+
+  position:absolute;
+  bottom: 1;  
 
   outline-style: solid;
   outline-color:red;
