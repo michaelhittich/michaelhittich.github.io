@@ -62,7 +62,7 @@ ul.sidebar {
 }
 
 h1 {
-  font-size:50px;
+  font-size:40px;
   color: #333333;
   float: center;
   margin-left: 40px;
@@ -77,19 +77,23 @@ h2 {
 }
 
 p {
-  font-size:15px;
+  padding-right: 80px;
+  font-size:18px;
   color: #666666;
 }
 
 p.sidebartext {
   font-size:20px;
   color:#333333;
+  
 }
 
 a {
   text-decoration:none;
   font-family:Arial, Helvetica, sans-serif; 
   color:#060;
+  font-weight: bold;
+  
 }
 
 a:hover{
@@ -98,12 +102,14 @@ a:hover{
 
 a.sidebarlink {
   color: #800;
+  
+  width:20%
 }
 
 a.sidebarlink:hover{
   color: #F90;
+  
 }
-
 
 hr { 
     height:1px;
@@ -112,4 +118,14 @@ hr {
     background-color:#333333;
 }
 
+img {
+  border: 1px solid #333333;
+  border-radius: 2px;
+  padding: 3px;
+}
+
+img.floater {
+  border: 0px solid #333333;
+
+}
 
