@@ -14,7 +14,7 @@ div.wrapper {
 
 .header {
   background-color: #0A141F;
-  padding: 50px;
+  padding: 30px;
   text-align: center;
 
 /*
@@ -92,12 +92,13 @@ ul.sidebar {
 }
 
 h1 {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
-  font-size:40px;
+  font-family:Verdana, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-size:50px;
   color: #C5D8D1;
   float: center;
-  margin-left: 40px;
+  margin-left: 0px;
 }
 
 h2 {
