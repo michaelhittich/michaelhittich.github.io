@@ -172,5 +172,6 @@ img.floater {
     text-align: center;
     float: none;
     color: #000000;
+    background-color:#AAAAAA;
   }
 }
