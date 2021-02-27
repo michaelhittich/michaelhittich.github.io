@@ -167,6 +167,12 @@ img.floater {
 
 }
 
+video {
+  border: 3px solid #333333;
+  border-radius: 2px;
+  padding: 3px;
+}
+
 @media screen and (max-width: 300px) {
   a.sidebarlink {
     text-align: center;
