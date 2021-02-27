@@ -46,7 +46,6 @@ a.sidebarlink {
  padding-top:20px;
  padding-bottom:20px;
  padding-left:20px;
- 
 
   color: #06BCC1;
   width:20%;
@@ -165,6 +164,7 @@ img {
 img.floater {
   border: 0px solid #333333;
   padding: 0px;
+
 }
 
 @media screen and (max-width: 300px) {
