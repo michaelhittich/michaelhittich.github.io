@@ -32,39 +32,61 @@
 
 <div class="content">
 
+<br>
+
 <h2>
   Animation
 </h2>
 
-<br>
+<p>  Mini-Reel </p>
 
-
-
-<p>  Mini-Reel <br>
-<br>
-<video width="700" height="400" controls>
-<source src="MiniReel_0.1.webm" type="video/webm"></source>
-</video>
-
-<br><br>
-<hr>
-<br><br>
-
-<p> Homunkulus <br> 
-<br>
-<img src="homu1.png" alt="Homunkulus" style="height:200px;">
-<img src="homu2.png" alt="Homunkulus" style="height:200px;">
-<img src="homu3.png" alt="Homunkulus" style="height:200px;">
-<p> Irrlicht <br> 
-<br>
-<img src="szene1screen.png" alt="Irrlicht" style="height:200px;">
-<img src="szene2screen.png" alt="Irrlicht" style="height:200px;">
-<img src="szene3screen.png" alt="Irrlicht" style="height:200px;">
-<!--
-<img src="kisutr.png" alt="Raum 2" class="floater"; style="float:right; height:200px;">
--->
+<div class="embedcontainer">
+<iframe src="https://player.vimeo.com/video/521853122" class="video" width="1280" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <hr>
+
+<div class="row">
+	<div class="column">
+		<img src="homu1.png" alt="Homunkulus" style="width:100%;" onclick="offnen(this);">
+	 </div>
+	 <div class="column">
+		<img src="homu2.png" alt="Homunkulus" style="width:100%;" onclick="offnen(this);">
+	 </div>
+	<div class="column">
+		<img src="homu3.png" alt="Homunkulus" style="width:100%;" onclick="offnen(this);">
+	 </div>
+
+	 <div class="column">
+		<img src="szene1screen.png" alt="Irrlicht" style="width:100%;" onclick="offnen(this);">
+	 </div>
+	 
+	 <div class="column">
+		<img src="szene2screen.png" alt="Irrlicht" style="width:100%;" onclick="offnen(this);">
+	 </div>
+	 <div class="column">
+		<img src="szene3screen.png" alt="Irrlicht" style="width:100%;" onclick="offnen(this);">
+	 </div>
+
+</div>
+
+<div class="bildContainer">
+	<span onclick = "this.parentElement.style.display='none'" class="zuKnopf">&times;
+	</span>
+	<img id="bildgr" style="width:90%">
+	<div id="bildtxt"></div>
+</div>
+
+<script>
+	function offnen(bilder){
+		var bildgr = document.getElementById("bildgr");
+		var bildtxt = document.getElementById("bildtxt");
+		bildgr.src = bilder.src;
+		bildtxt.innerHTML = bilder.alt;
+		bildgr.parentElement.style.display = "block";
+	}
+</script>
+
 
 </div>
 

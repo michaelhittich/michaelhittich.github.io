@@ -34,38 +34,58 @@
 
 <div class="content">
 
+<br>
+
 <h2>
   3D Modeling
 </h2>
 
-<br>
-
 <p> Modeling </p>
 <br>
-<img src="Haus3DBlender.png" alt="Raum 2" style="height:300px;">
-<img src="Motorrad3DBlender.png" alt="Raum 2" style="height:300px;">
 
-<br><br>
-<hr>
-<br><br>
-
-<p> Showroom </p>
-<br>
-<img src="Raum_2_b.jpg" alt="Raum 2" style="height:300px;">
-<img src="empfang_oben.jpg" alt="Gerresheimer Empfang" style="height:300px;">
-
-<br><br>
-<hr>
-<br><br>
-
-<p> Sculpting </p>
-
-<img src="scluptkopf.png" alt="Raum 2" style="height:300px;">
-<img src="wantr.png" alt="Raum 2" style="height:300px;">
+<div class="row">
+	<div class="column">
+		<img src="Haus3DBlender.png" alt="Übung: Fachwerkhaus" style="width:100%;" onclick="offnen(this);">
+	 </div>
+	 <div class="column">
+		<img src="Motorrad3DBlender.png" alt="Übung: Motorrad" style="width:100%;" onclick="offnen(this);">
+	 </div>
+	 
+	<div class="column">
+		<img src="Raum_2_b.jpg" alt="Showroom" style="width:100%;" onclick="offnen(this);">
+	 </div>
+	 <div class="column">
+		<img src="empfang_oben.jpg" alt="Gerresheimer Empfang" style="width:100%;" onclick="offnen(this);">
+	 </div>
+	 
+	 <div class="column">
+		<img src="scluptkopf.png" alt="Sculpt: Rudolf Diesel" style="width:100%;" onclick="offnen(this);">
+	 </div>
+	 <div class="column">
+		<img src="wantr.png" alt="Sculpt: Shiba Inu" style="width:100%;" onclick="offnen(this);">
+	 </div>
 
 </div>
 
+<div class="bildContainer">
+	<span onclick = "this.parentElement.style.display='none'" class="zuKnopf">&times;
+	</span>
+	<img id="bildgr" style="width:90%">
+	<div id="bildtxt"></div>
+</div>
 
+<script>
+	function offnen(bilder){
+		var bildgr = document.getElementById("bildgr");
+		var bildtxt = document.getElementById("bildtxt");
+		bildgr.src = bilder.src;
+		bildtxt.innerHTML = bilder.alt;
+		bildgr.parentElement.style.display = "block";
+	}
+</script>
+
+
+</div>
 
 <div class="footer">
 
