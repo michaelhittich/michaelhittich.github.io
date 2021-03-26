@@ -1,6 +1,6 @@
 
 body {
-  background-color: #FFFFFF;
+  background-color: #0A141F;
   font-family:Verdana, Helvetica, sans-serif; 
 
   /* font-family: "Josefin Sans", Helvetica, sans-serif;
@@ -12,8 +12,8 @@ div.wrapper {
 }
 
 .header {
-  background-color: #0A141F;
-  padding: 30px;
+  background-color: #12263A;
+  padding: 10px;
   text-align: center;
 
 /*
@@ -47,9 +47,12 @@ a.sidebarlink {
  padding-bottom:20px;
  padding-left:20px;
 
+
   color: #06BCC1;
   width:20%;
   float: left;
+  border: 2px solid #12263A;
+  border-radius: 2px;
 }
 
 a.sidebarlink:hover{
@@ -58,7 +61,7 @@ a.sidebarlink:hover{
 }
 
 .content {
-  margin-top:20px;
+  margin-top:10px;
   margin-left:0px;
   margin-bottom:20px;
   margin-right:0px;
@@ -106,12 +109,20 @@ a.sidebarlink:hover{
   display:none;
 }
 
+#bildtxt {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #C5D8D1;
+  font-size: 20px;
+}
+
 .zuKnopf {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 0px;
+  right: 250px;
   color: #C5D8D1;
-  font-size: 35px;
+  font-size: 50px;
   cursor: pointer;
 }
 
@@ -125,17 +136,19 @@ a.sidebarlink:hover{
 .video{
   position:absolute;
   top: 0;
-  left: 0;
+  left: 80px;
   width:80%;
   height:80%;
 }
 
 .footer {
   background-color: #0A141F;
-  padding: 20px;
+  padding-bottom: 0px;
   text-align: right;
   clear: both;
 
+border: 2px solid #12263A;
+  border-radius: 2px;
  /*
  outline-style: solid;
  outline-color: red;
@@ -208,7 +221,7 @@ img {
   padding: 3px;
 }
 
-img.floater {
+img.noborder {
   border: 0px solid #333333;
   padding: 0px;
 
@@ -228,8 +241,6 @@ iframe {
   margin:20px;
   
 }
-
-
 
 @media screen and (max-width: 300px) {
   a.sidebarlink {
