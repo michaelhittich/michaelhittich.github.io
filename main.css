@@ -102,8 +102,12 @@ a.sidebarlink:hover{
 
 }
 
-.contentsect {
+.contentuber {
+   
+  }
 
+.contentsect {
+   margin-left:5%;
   }
 
 .column {
@@ -146,6 +150,35 @@ a.sidebarlink:hover{
   font-size: 20px;
 }
 
+.lbild {
+  
+  cursor: pointer;
+}
+
+#lightbox {
+ position: fixed;
+ display: none;
+ z-index: 1000;
+ top:0;
+ width: 100%;
+ height:100%;
+ background-color:rgba(0,0,0,.8);
+}
+
+#lightbox.aktiv {
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#lightbox img {
+max.width: 90%;
+max-height:80%;
+padding:2px;
+
+}
+
 .zuKnopf {
   position: absolute;
   top: 0px;
@@ -157,16 +190,14 @@ a.sidebarlink:hover{
 
 .embedcontainer{
   
-  height: 350px;
-  padding-left: 35%;
+  
+  padding-left: 10%;
 }
 
 .video{
-  position:absolute;
-  width: 480px;
-  height: 30%;
- 
-
+  width:50%; 
+  height:300px;
+  overflow:auto;
 
 }
 
