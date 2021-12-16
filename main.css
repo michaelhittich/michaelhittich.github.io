@@ -377,11 +377,8 @@ video {
 
 iframe {
 
-  border: 1px solid #12263A;
-  border-radius: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin:20px;
+ 
+ min-width: 400px;
   
 }
 
