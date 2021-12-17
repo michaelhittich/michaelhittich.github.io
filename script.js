@@ -1,7 +1,10 @@
+// LIGHTBOX FUNKTIONALITÄT
+
 const lightbox = document.createElement('div')
 lightbox.id = 'lightbox'
 document.body.appendChild(lightbox)
 
+// ÖFFNEN BILDER LINKS
 const lbbilderL = document.querySelectorAll('.lbildL')
 lbbilderL.forEach(image => {
  image.addEventListener('click', e => {
@@ -15,6 +18,7 @@ lbbilderL.forEach(image => {
  })
 })
 
+// ÖFFNEN BILDER RECHTS
 const lbbilderR = document.querySelectorAll('.lbildR')
 lbbilderR.forEach(image => {
  image.addEventListener('click', e => {
@@ -28,7 +32,7 @@ lbbilderR.forEach(image => {
  })
 })
 
-
+// SCHLIEßEN -> AUS LISTE ENTFERNEN
 lightbox.addEventListener('click',e => {
 //	if (e.target !== e.currentTarget) return
 	lightbox.classList.remove('aktiv')
