@@ -32,12 +32,14 @@ body {
  
  background:linear-gradient(90deg, #12263A 11px, transparent 20%) center, linear-gradient(#12263A 11px, transparent 20%) center, #767B91;
  background-size: 12px 12px;
+
  
 }
 
 .row {
   
   display: flex;
+
   
 }
 
@@ -54,6 +56,8 @@ body {
  flex:1;
  padding: 0px;
  outline: 0px dotted #E1E5EE;
+
+ 
 }
 
 
@@ -243,7 +247,7 @@ img {
 }
 
 .uberbildA {
-  width:500px;
+  width:400px;
   max-width:60%; 
   min-width: 50px; 
    
